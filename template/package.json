@@ -1,6 +1,6 @@
 {
   "name": "nuxt-starter-template",
-  "version": "1.0.0",
+  "version": "220.0",
   "description": "Nuxt.js project",
   "author": "stiles69 <brett.salemink@gmail.com>",
   "private": true,
@@ -13,9 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/manifest": "^2.1.0",
     "@nuxtjs/pwa": "^2.0.8",
     "nuxt": "^1.0.0",
-    "nuxt-imagemin": "^0.1.2"
+    "nuxt-imagemin": "^0.1.2",
+    "nuxt-rfg-icon": "^0.4.3"
   },
   "devDependencies": {
     "@nuxtjs/google-tag-manager": "^2.0.0",

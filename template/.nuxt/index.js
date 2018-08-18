@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
-import nuxt_plugin_swplugin_78b97c1a from 'nuxt_plugin_swplugin_78b97c1a' // Source: ./sw.plugin.js (ssr: false)
-import nuxt_plugin_vuetify_369b5be9 from 'nuxt_plugin_vuetify_369b5be9' // Source: ./vuetify.js
-import nuxt_plugin_googletagmanager_5b64e811 from 'nuxt_plugin_googletagmanager_5b64e811' // Source: ./google-tag-manager.js (ssr: false)
+import nuxt_plugin_swplugin_32e8d60b from 'nuxt_plugin_swplugin_32e8d60b' // Source: ./sw.plugin.js (ssr: false)
+import nuxt_plugin_vuetify_dfeb03cc from 'nuxt_plugin_vuetify_dfeb03cc' // Source: ./vuetify.js
+import nuxt_plugin_googletagmanager_278d2d40 from 'nuxt_plugin_googletagmanager_278d2d40' // Source: ./google-tag-manager.js (ssr: false)
 
 
 // Component: <no-ssr>
@@ -136,11 +136,11 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
-  if (typeof nuxt_plugin_vuetify_369b5be9 === 'function') await nuxt_plugin_vuetify_369b5be9(app.context, inject)
+  if (typeof nuxt_plugin_vuetify_dfeb03cc === 'function') await nuxt_plugin_vuetify_dfeb03cc(app.context, inject)
   
   if (process.browser) { 
-    if (typeof nuxt_plugin_swplugin_78b97c1a === 'function') await nuxt_plugin_swplugin_78b97c1a(app.context, inject)
-    if (typeof nuxt_plugin_googletagmanager_5b64e811 === 'function') await nuxt_plugin_googletagmanager_5b64e811(app.context, inject)
+    if (typeof nuxt_plugin_swplugin_32e8d60b === 'function') await nuxt_plugin_swplugin_32e8d60b(app.context, inject)
+    if (typeof nuxt_plugin_googletagmanager_278d2d40 === 'function') await nuxt_plugin_googletagmanager_278d2d40(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first

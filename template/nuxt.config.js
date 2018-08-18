@@ -7,18 +7,20 @@ module.exports = {
   */
 
   modules: [
-    '@nuxtjs/pwa',
-    '@nuxtjs/sitemap',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-N4H694G'}],
-    '@nuxtjs/vuetify',
-    ['nuxt-imagemin', {
-      optipng: { optimizationLevel: 5},
-      gifsicle: { optimationLevel: 2}
-      }
-    ],
-  ],
-
-  //Workbox
+	'nuxt-rfg-icon',
+	'@nuxtjs/manifest',
+   	'@nuxtjs/pwa',
+   	'@nuxtjs/sitemap',
+   	['@nuxtjs/google-tag-manager', { id: 'GTM-N4H694G'}],
+   	'@nuxtjs/vuetify',
+   	['nuxt-imagemin', {
+     		optipng: { optimizationLevel: 5},
+     		gifsicle: { optimationLevel: 2}
+     		}
+   	],
+ ],
+  
+//Workbox
   workbox: {
     runtimeCaching: [
       {
