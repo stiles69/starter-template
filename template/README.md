@@ -1,6 +1,5 @@
-# {{ name }}
-
-> {{ description }}
+![Image of Stiles](https://storage.googleapis.com/stiles-images/StilesLogo.png)
+# nuxt-rogue-default
 
 ## Build Setup
 
@@ -20,4 +19,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-

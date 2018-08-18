@@ -1,3 +1,5 @@
+![Image of Stiles](https://storage.googleapis.com/stiles-images/StilesLogo.png)
+# starter-template
 # Starter
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.

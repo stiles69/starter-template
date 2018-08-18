@@ -1,8 +1,8 @@
 {
-  "name": "{{ name }}",
+  "name": "nuxt-starter-template",
   "version": "1.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
+  "description": "Nuxt.js project",
+  "author": "stiles69 <brett.salemink@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,9 +13,14 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "@nuxtjs/pwa": "^2.0.8",
+    "nuxt": "^1.0.0",
+    "nuxt-imagemin": "^0.1.2"
   },
   "devDependencies": {
+    "@nuxtjs/google-tag-manager": "^2.0.0",
+    "@nuxtjs/sitemap": "^0.1.1",
+    "@nuxtjs/vuetify": "^0.4.2",
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
