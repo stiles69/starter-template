@@ -1,6 +1,9 @@
 # Per PWA
 sw.*
 
+# Ignore dist
+dist
+
 # Logs
 logs
 *.log
